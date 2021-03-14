@@ -9,15 +9,15 @@ type LayoutProps = {
 
 const Layout = ({ children }: LayoutProps) => {
   return (
-    <Box margin="0 auto" maxWidth={800} transition="0.5s ease-out">
+    <div className="h-screen w-screen bg-yellow-400">
         <Head>
           <title>Mambo's Chicken</title>
         </Head>
-        <Box as="main" marginY={22}>
+        <div>
           {children}
-        </Box>
+        </div>
 
-    </Box>
+    </div>
   );
 };
 
