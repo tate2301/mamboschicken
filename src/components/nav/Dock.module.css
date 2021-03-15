@@ -1,0 +1,10 @@
+.dock {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.app:hover {
+    transform: scale(2) translateY(-10px);
+}
